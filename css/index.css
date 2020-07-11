@@ -1,5 +1,5 @@
 body{
-    background-image: url("/img/view-of-airport-247791.jpg");
+    background-image: url("./img/view-of-airport-247791.jpg");
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -39,9 +39,8 @@ body{
     padding: 1% 0 2% 2%;
     text-align: left;
 }
-input{
-    margin-left: 20px;
-    width: 60%;
+.form-part{
+    padding: %;
 }
 #footer{
     width: 70.2%;
