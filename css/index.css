@@ -28,6 +28,21 @@ body{
     margin-bottom: 3%;
     width: 100%;
 }
+.contact-me{
+    margin-left: 15%;
+    width: 70%;
+    margin-top: 3%;
+    text-align: center;
+    background-color: rgba(253, 253, 253, 0.671);
+}
+.form-contact{
+    padding: 1% 0 2% 2%;
+    text-align: left;
+}
+input{
+    margin-left: 20px;
+    width: 60%;
+}
 #footer{
     width: 70.2%;
     position: relative;
