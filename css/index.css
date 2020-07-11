@@ -60,7 +60,7 @@ input{
     text-align: center;
     background-color: rgba(141, 140, 140, 0.719);
 }
-@media (min-width: 400px){
+@media (max-width: 400px){
     .header{
         margin: 0;
         width: 100%;
