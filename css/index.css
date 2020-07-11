@@ -1,0 +1,47 @@
+body{
+    background-image: url("/public/img/view-of-airport-247791.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.nav-item{
+    font-size: 1.1rem;
+    margin: 0 3% 0 3%;
+    color: #fff;
+}
+.header{
+    margin: 10% 15% 0 15%;
+    color: white;
+    width: 70%;
+    background-color: rgba(253, 253, 253, 0.671);
+}
+.row{
+    background-color: rgba(253, 253, 253, 0.671);
+}
+#rows{
+    padding: 1% 16%;
+}
+.main{
+    background-color: rgba(253, 253, 253, 0.671);
+    text-align: center;
+    margin-bottom: 3%;
+    width: 100%;
+}
+#footer{
+    width: 70.2%;
+    position: relative;
+    left: 15%;
+    text-align: center;
+    background-color: rgba(141, 140, 140, 0.719);
+}
+@media (min-width: 400px){
+    .header{
+        margin: 0;
+        width: 100%;
+    }
+    #footer{
+        width: 100%;
+        position: static;
+    }
+}
