@@ -40,7 +40,18 @@ body{
     text-align: left;
 }
 .form-part{
-    padding: %;
+    margin: 2%;
+    padding: 1%;
+}
+input{
+    width: 70%;
+    float: right;
+}
+.send{
+    background-color: rgba(26, 184, 26, 0.719);
+    position: relative;
+    right: 1%;
+    width: 100%;
 }
 #footer{
     width: 70.2%;
@@ -57,5 +68,15 @@ body{
     #footer{
         width: 100%;
         position: static;
+    }
+    .contact-me{
+        height: 410px;
+    }
+    input{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .send{
+        margin-top: 10%;
     }
 }
