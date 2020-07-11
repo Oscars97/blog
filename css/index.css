@@ -3,7 +3,14 @@ body{
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+    color: white;
+}
+h1{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+p{
+    font-family: 'Noto Sans JP', sans-serif;
 }
 .nav-item{
     font-size: 1.1rem;
@@ -14,32 +21,40 @@ body{
     margin: 10% 15% 0 15%;
     color: white;
     width: 70%;
-    background-color: rgba(253, 253, 253, 0.671);
+    background-color: #dde9f0bd;
 }
-.row{
-    background-color: rgba(253, 253, 253, 0.671);
+.body-main{
+    background-color: #4b6370c7;
 }
 #rows{
     padding: 1% 16%;
 }
 .main{
-    background-color: rgba(253, 253, 253, 0.671);
+    line-height: 1%;
+    height: 100px;
+    max-height: 200px;
+    background-color: #4b6370c7;
     text-align: center;
     margin-bottom: 3%;
     width: 100%;
 }
+.soft-skills{
+    list-style: square;
+}
 .contact-me{
-    margin-left: 15%;
-    width: 70%;
+    position: relative;
+    left: 14%;
+    width: 72%;
     margin-top: 3%;
     text-align: center;
-    background-color: rgba(253, 253, 253, 0.671);
+    background-color: #4b6370c7;
 }
 .form-contact{
     padding: 1% 0 2% 2%;
     text-align: left;
 }
 .form-part{
+    font-family: 'Noto Sans JP', sans-serif;
     margin: 2%;
     padding: 1%;
 }
@@ -48,19 +63,19 @@ input{
     float: right;
 }
 .send{
-    background-color: rgba(26, 184, 26, 0.719);
+    background-color: #96D2F2;
     position: relative;
     right: 1%;
     width: 100%;
 }
 #footer{
-    width: 70.2%;
+    width: 70.4%;
     position: relative;
-    left: 15%;
+    left: 14.8%;
     text-align: center;
-    background-color: rgba(141, 140, 140, 0.719);
+    background-color: #dde9f0bd;
 }
-@media (max-width: 400px){
+@media (max-width: 768px){
     .header{
         margin: 0;
         width: 100%;
@@ -78,5 +93,8 @@ input{
     }
     .send{
         margin-top: 10%;
+    }
+    .main{
+        height: 200px;
     }
 }
