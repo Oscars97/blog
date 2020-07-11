@@ -32,7 +32,6 @@ p{
 .main{
     line-height: 1%;
     height: 100px;
-    max-height: 200px;
     background-color: #4b6370c7;
     text-align: center;
     margin-bottom: 3%;
@@ -95,6 +94,6 @@ input{
         margin-top: 10%;
     }
     .main{
-        height: 200px;
+        height: 220px;
     }
 }
