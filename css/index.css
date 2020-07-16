@@ -18,15 +18,34 @@ p{
     color: #fff;
 }
 .header{
-    margin: 10% 15% 0 15%;
+    margin: 0% 15% 0 15%;
     color: white;
     width: 70%;
     background-color: #dde9f0bd;
 }
+#sidebar{
+    display: none;
+}
+.sidebar{
+    text-align: center;
+    height: 100%;
+    position: fixed;
+    margin-top: 7%;
+    width: 2%;
+}
+.sidebar-item{
+    margin-bottom: 8px;
+}
+.icon{
+    color: #fff;
+    font-size: 2rem;
+}
 .body-main{
+    transition: linear;
     background-color: #4b6370c7;
 }
 #rows{
+    transition: width 5s;
     padding: 1% 16%;
 }
 .main{
@@ -40,6 +59,13 @@ p{
 .soft-skills{
     list-style: square;
 }
+#contact{
+    display: none;
+    display: -moz-popup;
+    margin-top: 13%;
+    margin-bottom: 10%;
+}
+
 .contact-me{
     position: relative;
     left: 14%;
