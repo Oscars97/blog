@@ -40,6 +40,10 @@ p{
     color: #fff;
     font-size: 2rem;
 }
+.icon:hover{
+    font-size: 2.5rem;
+    color: rgba(209, 209, 209, 0.537);
+}
 .body-main{
     transition: linear;
     background-color: #4b6370c7;
