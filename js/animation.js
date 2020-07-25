@@ -30,6 +30,7 @@ function contact(){
             title: 'Oops...',
             text: 'We are missing your full name, try again please',
           })
+          addAnimation();
     }else if(email.length<10){
         Swal.fire({
             icon: 'error',

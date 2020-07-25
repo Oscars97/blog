@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--CSS-->
-
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
     <!--BOOTSTRAP-->
     <link
       rel="stylesheet"
@@ -41,7 +44,7 @@
     <link rel="stylesheet" href="./css/index.css" />
 
     <!--LETS CREATE A SIDEBAR FOR THE SOCIAL MEDIA-->
-    <ul class="nav flex-column sidebar fade-in" id="sidebar">
+    <ul class="nav flex-column sidebar fade-in animate__animated animate__bounce" id="sidebar">
       <li class="nav-item sidebar-item">
         <a class="nav-link active" target="_blank" href="https://www.facebook.com/profile.php?id=100005191026242"><i class="fab fa-facebook icon"></i></a>
       </li>
@@ -104,7 +107,7 @@
             <div class="row body-main">
                 <div class="col-lg-12 col-sm-12 main">
                     <h1>Óscar Steven Sánchez Meza</h1>
-                    <h2>Front End Developer</h2>
+                    <h2 class="animate__animated animate__bounce animate__delay-2s">Front End Developer</h2>
                     <!--<h3><a href="mailto:oscarsanchezmeza97@gmail.com"><i class="far fa-envelope"></i></a> oscarsanchezmeza97@gmail.com</h3> -->
                 </div>
                 <br>
@@ -211,7 +214,7 @@
           <form class="form-contact" action="submit">
             <div class="form-part">
               <label for="fullName">Full Name:</label>
-              <input id="fullName" type="text" placeholder="Full Name">
+              <input id="fullName" type="text" placeholder="Full Name"> 
             </div>
             <div class="form-part">
               <label for="email">Email:</label>

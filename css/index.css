@@ -41,8 +41,7 @@ p{
     font-size: 2rem;
 }
 .icon:hover{
-    font-size: 2.5rem;
-    color: rgba(209, 209, 209, 0.537);
+    box-shadow: -40px 0px 10px rgba(209, 209, 209, 0.748);
 }
 .body-main{
     transition: linear;
