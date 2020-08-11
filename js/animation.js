@@ -43,7 +43,7 @@ function contact(){
             title: 'Oops...',
             text: 'We are missing the name or your company/ subject!',
           })
-    }else if(number.length<8){
+    }else if(isNaN(number)){
         Swal.fire({
             icon: 'error',
             title: 'Oops...',

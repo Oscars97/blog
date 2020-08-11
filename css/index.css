@@ -5,6 +5,8 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
+    margin: 0;
+    padding: 0;
 }
 h1{
     font-family: 'Noto Sans JP', sans-serif;
@@ -13,15 +15,21 @@ p{
     font-family: 'Noto Sans JP', sans-serif;
 }
 .nav-item{
+    font-family: 'Lemonada', cursive;
     font-size: 1.1rem;
     margin: 0 3% 0 3%;
     color: #fff;
 }
 .header{
-    margin: 0% 15% 0 15%;
+    margin: auto;
     color: white;
-    width: 70%;
-    background-color: #dde9f0bd;
+    width: 95%;
+    background-color: #dde9f000;
+}
+.brand{
+    font-size: 1.3rem;
+    font-family: 'Lemonada', cursive;
+    color: #fff;
 }
 #sidebar{
     display: none;
@@ -35,6 +43,7 @@ p{
 }
 .sidebar-item{
     margin-bottom: 8px;
+    color: #fff;
 }
 .icon{
     color: #fff;
@@ -110,7 +119,7 @@ input{
         width: 100%;
     }
     .sidebar{
-        margin-top: 44%;
+        margin-top: 10%;
     }
     .icon{
         font-size: 1.5rem;
@@ -120,7 +129,9 @@ input{
         position: static;
     }
     .contact-me{
-        height: 410px;
+        width: 82%;
+        position: relative;
+        left: 10%;
     }
     input{
         width: 100%;
