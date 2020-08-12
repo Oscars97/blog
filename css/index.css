@@ -1,13 +1,16 @@
 body{
-    background-image: url("../img/view-of-airport-247791.jpg");
+    margin: 0;
+    padding: 0;
+} 
+/*
+    #contact,footer{
+    background-image: url("../img/books.jpg");
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    color: white;
-    margin: 0;
-    padding: 0;
-}
+    }
+*/
 h1{
     font-family: 'Noto Sans JP', sans-serif;
 }
@@ -15,21 +18,24 @@ p{
     font-family: 'Noto Sans JP', sans-serif;
 }
 .nav-item{
-    font-family: 'Lemonada', cursive;
+    font-family: 'Heebo', sans-serif;
     font-size: 1.1rem;
-    margin: 0 3% 0 3%;
-    color: #fff;
+    margin: 0 1% 0 3%;
+    color: #000;
 }
 .header{
+    height: 30px;
+    padding: 0;
+    line-height: 1rem;
+    background-color: #fff;
     margin: auto;
     color: white;
-    width: 95%;
-    background-color: #dde9f000;
+    width: 100%;
 }
 .brand{
     font-size: 1.3rem;
-    font-family: 'Lemonada', cursive;
-    color: #fff;
+    font-family: 'Heebo', sans-serif;
+    color: #000;
 }
 #sidebar{
     display: none;
@@ -38,7 +44,7 @@ p{
     text-align: center;
     height: 100%;
     position: fixed;
-    margin-top: 15%;
+    margin-top: 12%;
     width: 2%;
 }
 .sidebar-item{
@@ -52,18 +58,21 @@ p{
 .icon:hover{
     box-shadow: -40px 0px 10px rgba(209, 209, 209, 0.748);
 }
+#cv{
+    background-color: #000;
+}
 .body-main{
     transition: linear;
-    background-color: #4b6370c7;
 }
 #rows{
+    color: #fff;
     transition: width 5s;
     padding: 1% 16%;
 }
 .main{
+    color: #fff;
     line-height: 1%;
     height: 100px;
-    background-color: #4b6370c7;
     text-align: center;
     margin-bottom: 3%;
     width: 100%;
@@ -73,10 +82,11 @@ p{
     list-style: square;
 }
 #contact{
+    color: #000;
     display: none;
     display: -moz-popup;
-    margin-top: 13%;
-    margin-bottom: 10%;
+    margin-top: 10%;
+    margin-bottom: 5%;
 }
 
 .contact-me{
@@ -85,7 +95,6 @@ p{
     width: 72%;
     margin-top: 3%;
     text-align: center;
-    background-color: #4b6370c7;
 }
 .form-contact{
     padding: 1% 0 2% 2%;
@@ -101,17 +110,17 @@ input{
     float: right;
 }
 .send{
-    background-color: #96D2F2;
+    background-color: #24CC32;
     position: relative;
     right: 1%;
     width: 100%;
 }
 #footer{
-    width: 70.4%;
-    position: relative;
-    left: 14.8%;
+    margin-top: 2%;
+    width: 100%;
     text-align: center;
-    background-color: #dde9f0bd;
+    background-color: #110f14;
+    color: #fff;
 }
 @media (max-width: 768px){
     .header{
@@ -119,7 +128,7 @@ input{
         width: 100%;
     }
     .sidebar{
-        margin-top: 10%;
+        margin-top: 8%;
     }
     .icon{
         font-size: 1.5rem;

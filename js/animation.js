@@ -17,6 +17,7 @@ function sidebarAppear(){
 function contactAppears(){
     var contact = document.getElementById("contact");
     contact.style.display= "block";
+    side.style.backgroundColor = 'black';
 }
 
 function contact(){
