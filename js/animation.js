@@ -17,14 +17,14 @@ function sidebarAppear(){
 function contactAppears(){
     var contact = document.getElementById("contact");
     contact.style.display= "block";
-    side.style.backgroundColor = 'black';
-}
+};
 
 function contact(){
     let fullName = document.querySelector('#fullName').value;
     let email = document.querySelector('#email').value;
     let companyName = document.querySelector("#company").value;
     let number = document.querySelector("#phoneNumber").value;
+
     if (fullName.length<10){
         Swal.fire({
             icon: 'error',

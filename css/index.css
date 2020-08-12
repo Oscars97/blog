@@ -21,7 +21,7 @@ p{
     font-family: 'Heebo', sans-serif;
     font-size: 1.1rem;
     margin: 0 1% 0 3%;
-    color: #000;
+    color: #fff;
 }
 .header{
     height: 30px;
@@ -30,7 +30,7 @@ p{
     background-color: #fff;
     margin: auto;
     color: white;
-    width: 100%;
+    width: 90%;
 }
 .brand{
     font-size: 1.3rem;
@@ -124,6 +124,7 @@ input{
 }
 @media (max-width: 768px){
     .header{
+        height: 1%;
         margin: 0;
         width: 100%;
     }
@@ -149,7 +150,13 @@ input{
     .send{
         margin-top: 10%;
     }
+    #rows{
+        text-align: justify; 
+    }
     .main{
         height: 230px;
+    }
+    .nav-item{
+        padding: 1%;
     }
 }
