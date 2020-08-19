@@ -2,15 +2,7 @@ body{
     margin: 0;
     padding: 0;
 } 
-/*
-    #contact,footer{
-    background-image: url("../img/books.jpg");
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    }
-*/
+
 h1{
     font-family: 'Noto Sans JP', sans-serif;
 }
@@ -24,6 +16,9 @@ p{
     color: #fff;
 }
 .header{
+    animation-name: goingFromRight;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
     height: 30px;
     padding: 0;
     line-height: 1rem;
@@ -37,14 +32,14 @@ p{
     font-family: 'Heebo', sans-serif;
     color: #000;
 }
-#sidebar{
-    display: none;
-}
 .sidebar{
+    z-index: 1;
+    animation-name: goingFromTop;
+    animation-duration: 1s;
     text-align: center;
     height: 100%;
     position: fixed;
-    margin-top: 12%;
+    margin-top: 9%;
     width: 2%;
 }
 .sidebar-item{
@@ -59,14 +54,15 @@ p{
     box-shadow: -40px 0px 10px rgba(209, 209, 209, 0.748);
 }
 #cv{
-    
-    clip-path: polygon(7% 0, 99% 0, 95% 100%, 1% 100%);
+    /*clip-path: polygon(7% 0, 99% 0, 95% 100%, 1% 100%); */
     background-color: #000;
 }
 .body-main{
     transition: linear;
 }
 #rows{
+    animation-name: goingFromLeft;
+    animation-duration: 3s;
     color: #fff;
     transition: width 5s;
     padding: 1% 16%;
@@ -92,6 +88,9 @@ p{
 }
 
 .contact-me{
+    animation-name: goingFromBottom;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
     position: relative;
     left: 14%;
     width: 72%;
@@ -108,7 +107,7 @@ p{
     padding: 1%;
 }
 input{
-    width: 70%;
+    width: 72%;
     float: right;
 }
 .send{
@@ -124,6 +123,71 @@ input{
     background-color: #110f14;
     color: #fff;
 }
+
+
+/*ANIMATIONS*/
+
+@keyframes goingFromRight{
+    0%{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: reverse();
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+
+}
+@keyframes goingFromLeft{
+    0%{
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    50%{
+        transform: rotateX();
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+
+}
+@keyframes goingFromBottom{
+    0%{
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    50%{
+        background-color: black;
+        color: white;
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+
+}
+@keyframes goingFromTop{
+    0%{
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    50%{
+        
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(3deg);
+    }
+
+}
+
+/*RESPONSIVE*/
+
+
 @media (max-width: 768px){
     .header{
         height: 1%;
