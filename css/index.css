@@ -195,7 +195,9 @@ input{
         position: static;
     }
     .link-comeback{
-        display: none;
+        position: relative;
+        left: 58%;
+        display: inline-block;
     }
 }
 
