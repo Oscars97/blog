@@ -42,7 +42,7 @@ p{
     width: 2%;
 }
 .sidebar-item{
-    margin-bottom: 8px;
+    margin-bottom: 5%;
     color: #fff;
 }
 .icon{
@@ -64,13 +64,16 @@ p{
     width: 80%;
 }
 .main{
-    text-align:center;
+    text-align: center;
+    font-weight: 200px;
+    letter-spacing: 1rem;
+    position: relative;
     color: #fff;
+    font-weight: 50px;
     line-height: 1%;
     height: 100px;
     margin-bottom: 3%;
-    width: 100%;
-    padding: 2% 15% 2% 15%;
+    width: 70%
 }
 
 .soft-skills{
@@ -127,7 +130,7 @@ input{
     text-decoration: none;
     color: #fff;
     background-color: #24CC32;
-    border-radius: 100px;
+    border-radius: 10px 45px;
     padding: 1% 2%;
     margin: auto;
     position: relative;
@@ -165,10 +168,10 @@ input{
     }
     .main{
         text-align: center;
-        height: 260px;
+        letter-spacing: 0rem;
+        height: auto;
         width:100%;
         position: relative;
-        left: 30%;
         margin-bottom: 10%;
         animation-name: goingFromBottom;
         animation-duration: 2s;
@@ -196,7 +199,7 @@ input{
     }
     .link-comeback{
         position: relative;
-        left: 58%;
+        left: 56%;
         display: inline-block;
     }
 }
