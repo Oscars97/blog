@@ -66,7 +66,6 @@ p{
 .main{
     text-align: center;
     font-weight: 200px;
-    letter-spacing: 1rem;
     position: relative;
     color: #fff;
     font-weight: 50px;
@@ -75,10 +74,37 @@ p{
     margin-bottom: 3%;
     width: 70%
 }
+.main h2{
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+}
 
 .soft-skills{
     list-style: square;
 }
+
+.blog-site{
+    margin-top: 5%;
+    background-color: #fff;
+    text-align: center;
+    color: #fff;
+    background-image: url(/img/pexels-jessica-lewis-606541.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    max-height: 50%;
+}
+
+.general-info{
+    padding: 10% 20% 5% 20%;
+}
+.post{
+    height: 30%;
+    width: 40%;
+    border: 1px solid #fff;
+    padding: 0 10%;
+    display: inline-block;
+}
+
 #contact{
     color: #000;
     display: none;
@@ -130,17 +156,18 @@ input{
     text-decoration: none;
     color: #fff;
     background-color: #24CC32;
-    border-radius: 10px 45px;
+    border-radius: 5%;
     padding: 1% 2%;
     margin: auto;
     position: relative;
-    left: 83%;
+    left: 90%;
 }
 .link-comeback:hover{
     box-shadow: -10px 10px 4px #24cc326b;
     text-decoration: none;
     color: #fff;
     padding: 1% 2.6%;
+    cursor: pointer;
 }
 
 
@@ -199,7 +226,7 @@ input{
     }
     .link-comeback{
         position: relative;
-        left: 56%;
+        left: 80%;
         display: inline-block;
     }
 }
