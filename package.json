@@ -1,0 +1,23 @@
+{
+  "name": "cv2",
+  "version": "1.0.0",
+  "description": "This is a blog/ portafolio/ cv for Oscar Sanchez as a Developer",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/_main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oscars97/blog.git"
+  },
+  "author": "Oscar Sanchez M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oscars97/blog/issues"
+  },
+  "homepage": "https://github.com/Oscars97/blog#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
