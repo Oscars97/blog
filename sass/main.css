@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #a30929;
+  background: -webkit-gradient(linear, left top, right top, color-stop(25%, rgba(163, 9, 41, 0.765126)), color-stop(50%, rgba(121, 9, 47, 0.692297)), color-stop(79%, rgba(0, 18, 255, 0.706303)));
+  background: linear-gradient(90deg, rgba(163, 9, 41, 0.765126) 25%, rgba(121, 9, 47, 0.692297) 50%, rgba(0, 18, 255, 0.706303) 79%);
+}
+
+.header {
+  -webkit-animation-name: goingFromRight;
+          animation-name: goingFromRight;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  height: px;
+  padding: 0;
+  line-height: 1rem;
+  background-color: #fff;
+  margin: auto;
+  color: white;
+  width: 70%;
+}
+
+.header .brand {
+  font-size: 1.5rem;
+  font-family: "Heebo", sans-serif;
+  color: #118211;
+}
+
+.header .nav-item {
+  font-family: "Heebo", sans-serif;
+  font-size: 1.1rem;
+  margin: 0 1% 0 3%;
+  color: #fff;
+}
+
+.home {
+  height: 100vh;
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */

@@ -4,7 +4,7 @@
   "description": "This is a blog/ portafolio/ cv for Oscar Sanchez as a Developer",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/_main.scss css/style.css -w"
+    "compile:sass": "node-sass sass/main.scss sass/main.css -w"
   },
   "repository": {
     "type": "git",
