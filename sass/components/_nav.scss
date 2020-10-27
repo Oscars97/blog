@@ -1,26 +1,13 @@
-.header{
-    animation-name: goingFromRight;
-    animation-duration: 2s;
-    height: px;
-    padding: 0;
-    line-height: 1rem;
-    background-color: #fff;
-    margin: auto;
-    color: white;
-    width: 70%;
+.navigation-bar{
+    background-color: #c9c1c164;
+    height: 10%;
 
-    .brand{
-        font-size: 1.5rem;
-        font-family: $secondary-font-family;
-        color: rgb(17, 130, 17);
+    .navbar-toggler-icon{
+        color: white;
     }
- 
-
     .nav-item{
-        font-family: $secondary-font-family;
-        font-size: 1.1rem;
-        margin: 0 1% 0 3%; 
-        color: #fff;
-    } 
-
+        position: relative;
+        right: 2%;
+        color: white;
+    }
 }
