@@ -1,39 +1,36 @@
 body {
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #0a0d43;
-  color: white;
-}
-
-.navigation-bar {
-  background-color: #c9c1c164;
-  height: 10%;
-}
-
-.navigation-bar .navbar-toggler-icon {
-  color: white;
-}
-
-.navigation-bar .nav-item {
-  position: relative;
-  right: 2%;
-  color: white;
-}
-
-.principal {
-  margin: 5% auto;
-  width: 100%;
-  color: #fff;
+  background-image: url("/public/img/pexels-hitarth-jadhav-220357.jpg");
+  /* The image used */
+  background-color: #cccccc;
+  /* Used if the image is unavailable */
   height: 100vh;
+  /* You must set a specified height */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
 }
 
-#cv {
-  width: 80%;
-  margin: 5% auto;
-  height: 100vh;
-  color: white;
-  text-align: right;
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.256);
+  width: 60%;
+  height: 500px;
+  max-height: 500px;
+  margin: 2% auto;
+}
+
+.container .main-information {
+  color: red;
 }
 /*# sourceMappingURL=main.css.map */
