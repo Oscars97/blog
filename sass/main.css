@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image: url("/public/img/WhatsApp Image 2020-11-06 at 10.17.52 AM.jpeg");
+  background-image: url("../img/WhatsApp Image 2020-11-06 at 10.17.52 AM.jpeg");
   /* The image used */
   background-color: #cccccc;
   /* Used if the image is unavailable */
