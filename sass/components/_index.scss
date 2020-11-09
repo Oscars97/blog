@@ -32,3 +32,37 @@
         
     }
 }
+
+@media (max-width: 420px){
+    .container{
+        width: 100%;
+        margin: 2% auto;
+        overflow: hidden;
+        box-sizing: border-box;
+        .main-information{
+            font-family: 'Lato', sans-serif;
+            color: rgba(255, 255, 255, 0.824);
+            position: relative;
+            padding: 2%;
+            
+            .details{
+                background-color: rgba(253, 9, 9, 0.235);
+                margin: 1% auto;
+                padding: 5%;
+                border: solid white 1px;
+                border-radius: 30px;
+                overflow: hidden;
+                display: flex;
+                float: right;
+                width: 100%;
+    
+                .details-element{
+                    padding-right: 3%;
+                    
+                    border-right: solid 2px white;
+                }
+            }
+            
+        }
+    }
+}
