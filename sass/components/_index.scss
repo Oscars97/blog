@@ -84,6 +84,7 @@
                 float: right;
                 width: 100%;
                 text-align: center;
+                color: rgb(15, 3, 3);
     
                 .details-element_left{
                     padding: 2% 3% 0 3%;
@@ -93,16 +94,19 @@
                     margin-right: 0;
                 }
                 .details-element_right{
+                    text-decoration-style: double;
                     padding: 2% 3% 0 3%;
                     border-top: solid 5px white;
                     border-right: solid 5px  rgb(128, 13, 13);
                 }
             }
             .my-btn, .my-btn:after, .my-btn:before, .my-btn:link{
-                font-size: 1.3rem;
+                font-size: 1.6rem;
+                margin: 0 auto;
+                width: 90%;
                 font-family: 'Dancing Script', cursive;
-                background-color: black;
-                color: white;
+                background-color: white;
+                color: red;
                 border: solid 1px white;
                 letter-spacing: 0;
             }
