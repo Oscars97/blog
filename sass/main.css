@@ -104,10 +104,10 @@ body {
       .container .main-information .my-btn, .container .main-information .my-btn:after, .container .main-information .my-btn:before, .container .main-information .my-btn:link {
         font-size: 1.6rem;
         margin: 0 auto;
-        width: 90%;
+        width: 100%;
         font-family: 'Dancing Script', cursive;
-        background-color: white;
-        color: red;
+        background-color: #181313;
+        color: #a51212;
         border: solid 1px white;
         letter-spacing: 0; } }
 
@@ -141,3 +141,26 @@ body {
       color: white; }
       .navbar .nav-item:hover {
         background-color: rgba(255, 5, 5, 0); } }
+
+.list-group {
+  display: flex;
+  flex-direction: column;
+  width: 19%;
+  float: right;
+  position: absolute;
+  position: fixed;
+  right: 2%;
+  top: 10%;
+  opacity: 0.3;
+  color: white; }
+  .list-group:hover {
+    right: 0;
+    width: 50%;
+    opacity: 1;
+    background-color: red; }
+
+.body-main {
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+  color: white; }
