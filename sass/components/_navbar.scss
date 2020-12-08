@@ -2,9 +2,10 @@
     box-sizing: border-box;
     width: 80%;
     margin: 0 auto;
-
+    transition: all 1s;
     .navbar-brand{
-        color: rgba(171, 2, 2, 0.865);
+        color: rgba(255, 0, 0, 0.865);
+        font-size: 2em;
         pointer-events: none;
     }
     .navbar-toggler-icon, .navbar-toggler{
@@ -13,9 +14,8 @@
     .nav-item{
         margin-left: 80%;
         color: white;
-        
         &:hover{
-            
+            border-radius: 5px;
             background-color: rgba(255, 5, 5, 0.818);
         }
        

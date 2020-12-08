@@ -34,23 +34,11 @@ body {
     color: rgba(255, 255, 255, 0.824);
     position: relative;
     padding: 2%; }
-    .container .main-information .my-btn,
-    .container .main-information .my-btn:after,
-    .container .main-information .my-btn:before,
-    .container .main-information .my-btn:link {
-      font-size: 2rem;
-      font-family: "Dancing Script", cursive;
-      background-color: black;
-      color: white;
-      border: solid 1px white;
-      letter-spacing: 1.6rem; }
-    .container .main-information .my-btn:hover {
-      color: rgba(255, 0, 0, 0.701);
-      background-color: #f0ecec; }
     .container .main-information .name {
       background-color: rgba(222, 217, 217, 0.201);
       transition: all 1s; }
       .container .main-information .name:hover {
+        background-color: rgba(126, 30, 30, 0.926);
         cursor: pointer; }
     .container .main-information .details {
       transition: all 1s;
@@ -79,7 +67,7 @@ body {
       color: white;
       transition: all 0.5s; }
       .container .list-social-media .link-social a:hover {
-        font-size: 1.2em; }
+        font-size: 1.5em; }
 
 @media (max-width: 420px) {
   .container {
@@ -145,9 +133,11 @@ body {
 .navbar {
   box-sizing: border-box;
   width: 80%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  transition: all 1s; }
   .navbar .navbar-brand {
-    color: rgba(171, 2, 2, 0.865);
+    color: rgba(255, 0, 0, 0.865);
+    font-size: 2em;
     pointer-events: none; }
   .navbar .navbar-toggler-icon, .navbar .navbar-toggler {
     color: white; }
@@ -155,6 +145,7 @@ body {
     margin-left: 80%;
     color: white; }
     .navbar .nav-item:hover {
+      border-radius: 5px;
       background-color: rgba(255, 5, 5, 0.818); }
 
 @media (max-width: 420px) {
@@ -173,25 +164,20 @@ body {
       .navbar .nav-item:hover {
         background-color: rgba(255, 5, 5, 0); } }
 
-.list-group {
-  display: flex;
-  flex-direction: column;
-  width: 19%;
-  float: right;
-  position: absolute;
-  position: fixed;
-  right: 2%;
-  top: 10%;
-  opacity: 0.3;
-  color: white; }
-  .list-group:hover {
-    right: 0;
-    width: 50%;
-    opacity: 1;
-    background-color: red; }
+* {
+  box-sizing: border-box; }
 
-.body-main {
-  text-align: left;
-  width: 80%;
-  margin: 0 auto;
-  color: white; }
+body {
+  margin: 0;
+  padding: 0; }
+
+.info-container {
+  margin-top: 5%;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr)); }
+  .info-container .grid-item {
+    background-color: rgba(236, 236, 242, 0.186); }
+    .info-container .grid-item h1 {
+      text-align: center;
+      color: white; }

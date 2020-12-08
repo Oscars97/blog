@@ -12,27 +12,12 @@
     position: relative;
     padding: 2%;
 
-    .my-btn,
-    .my-btn:after,
-    .my-btn:before,
-    .my-btn:link {
-      font-size: 2rem;
-      font-family: "Dancing Script", cursive;
-      background-color: black;
-      color: white;
-      border: solid 1px white;
-      letter-spacing: 1.6rem;
-    }
-    .my-btn:hover {
-      color: rgba(255, 0, 0, 0.701);
-      background-color: rgb(240, 236, 236);
-    }
+    
     .name {
       background-color: rgba(222, 217, 217, 0.201);
       transition: all 1s;
       &:hover {
-        
-
+        background-color: rgba(126, 30, 30, 0.926);
         cursor: pointer;
       }
     }
@@ -54,12 +39,7 @@
         border-right: solid 2px white;
       }
       &:hover {
-        
-
-        
         transform: scale(1.1);
-    
-        
       }
     }
   }
@@ -75,7 +55,8 @@
       transition: all 0.5s;
 
       &:hover{
-          font-size: 1.2em;
+          
+          font-size: 1.5em;
       }
     }
   }
