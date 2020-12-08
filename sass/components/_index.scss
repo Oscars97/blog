@@ -1,116 +1,161 @@
+.container {
+  background-color: rgba(255, 255, 255, 0.256);
+  width: 70%;
+  height: auto;
+  margin: 2% auto;
+  overflow: hidden;
+  box-sizing: border-box;
+  border-radius: 25px;
+  .main-information {
+    font-family: "Lato", sans-serif;
+    color: rgba(255, 255, 255, 0.824);
+    position: relative;
+    padding: 2%;
 
-.container{
-    background-color: rgba(255, 255, 255, 0.256);
-    width: 70%;
-    height: auto;
+    .my-btn,
+    .my-btn:after,
+    .my-btn:before,
+    .my-btn:link {
+      font-size: 2rem;
+      font-family: "Dancing Script", cursive;
+      background-color: black;
+      color: white;
+      border: solid 1px white;
+      letter-spacing: 1.6rem;
+    }
+    .my-btn:hover {
+      color: rgba(255, 0, 0, 0.701);
+      background-color: rgb(240, 236, 236);
+    }
+    .name {
+      background-color: rgba(222, 217, 217, 0.201);
+      transition: all 1s;
+      &:hover {
+        
+
+        cursor: pointer;
+      }
+    }
+    .details {
+      transition: all 1s;
+      background-color: rgba(253, 9, 9, 0.235);
+      margin: 2% auto;
+      padding: 5%;
+      border: solid white 2px;
+      border-radius: 30px;
+      overflow: hidden;
+      display: flex;
+      float: right;
+      width: 80%;
+
+      .details-element_left {
+        padding-right: 1%;
+        margin-right: 2%;
+        border-right: solid 2px white;
+      }
+      &:hover {
+        
+
+        
+        transform: scale(1.1);
+    
+        
+      }
+    }
+  }
+  .list-social-media {
+    margin-top: 5%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    list-style: none;
+
+    .link-social a {
+      color: white;
+      transition: all 0.5s;
+
+      &:hover{
+          font-size: 1.2em;
+      }
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .container {
+    width: 100%;
     margin: 2% auto;
     overflow: hidden;
     box-sizing: border-box;
-    .main-information{
-        font-family: 'Lato', sans-serif;
-        color: rgba(255, 255, 255, 0.824);
-        position: relative;
-        padding: 2%;
+
+    .list-social-media {
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
         
-        .my-btn, .my-btn:after, .my-btn:before, .my-btn:link{
-            font-size: 2rem;
-            font-family: 'Dancing Script', cursive;
-            background-color: black;
-            color: white;
-            border: solid 1px white;
-            letter-spacing: 1.6rem;
+        list-style: none;
+    
+        .link-social a {
+          color: white;
+          transition: all 1s;
         }
-        .my-btn:hover{
-            color: rgba(255, 0, 0, 0.701);
-            background-color: rgb(240, 236, 236);
-        }
-        .name{
-            background-color: rgba(222, 217, 217, 0.201);
+      }
+    .main-information {
+      font-family: "Lato", sans-serif;
+      color: rgba(255, 255, 255, 0.824);
+      position: relative;
+      padding: 2%;
+      text-align: justify;
 
-            &:hover{
-                background-color: rgba(95, 10, 10, 0.605);
-            }
-        }
-        .details{
-            background-color: rgba(253, 9, 9, 0.235);
-            margin: 2% auto;
-            padding: 5%;
-            border: solid white 2px;
-            border-radius: 30px;
-            overflow: hidden;
-            display: flex;
-            float: right;
-            width: 80%;
+      .name {
+        background-color: rgba(222, 217, 217, 0.201);
 
-            .details-element_left{
-                padding-right: 1%;
-                margin-right: 2%;
-                border-right: solid 2px white;
-            }
+        &:hover {
+          background-color: rgba(222, 217, 217, 0.201);
         }
-        
-    }
-}
+      }
 
-@media (max-width: 420px){
-    .container{
-        width: 100%;
-        margin: 2% auto;
+      .details {
+        background-color: rgba(255, 255, 255, 0.427);
+        margin: 1% auto;
+        padding: 5%;
+        border: solid white 1px;
+        border-radius: 30px;
         overflow: hidden;
-        box-sizing: border-box;
-        .main-information{
-            font-family: 'Lato', sans-serif;
-            color: rgba(255, 255, 255, 0.824);
-            position: relative;
-            padding: 2%;
-            text-align: justify;
-            
-            .name{
-                background-color: rgba(222, 217, 217, 0.201);
-    
-                &:hover{
-                    background-color: rgba(222, 217, 217, 0.201);
-                }
-            }
-            
-            .details{
-                background-color: rgba(255, 255, 255, 0.427);
-                margin: 1% auto;
-                padding: 5%;
-                border: solid white 1px;
-                border-radius: 30px;
-                overflow: hidden;
-                display: flex;
-                float: right;
-                width: 100%;
-                text-align: center;
-                color: rgb(15, 3, 3);
-    
-                .details-element_left{
-                    padding: 2% 3% 0 3%;
-                    border-right: solid 5px rgb(128, 13, 13);
-                    border-left: solid 5px  rgb(128, 13, 13);
-                    border-bottom: solid 5px white;
-                    margin-right: 0;
-                }
-                .details-element_right{
-                    text-decoration-style: double;
-                    padding: 2% 3% 0 3%;
-                    border-top: solid 5px white;
-                    border-right: solid 5px  rgb(128, 13, 13);
-                }
-            }
-            .my-btn, .my-btn:after, .my-btn:before, .my-btn:link{
-                font-size: 1.6rem;
-                margin: 0 auto;
-                width: 100%;
-                font-family: 'Dancing Script', cursive;
-                background-color: rgb(24, 19, 19);
-                color: rgb(165, 18, 18);
-                border: solid 1px white;
-                letter-spacing: 0;
-            }
-            
+        display: flex;
+        float: right;
+        width: 100%;
+        text-align: center;
+        color: rgb(15, 3, 3);
+
+        .details-element_left {
+          padding: 2% 3% 0 3%;
+          border-right: solid 5px rgb(128, 13, 13);
+          border-left: solid 5px rgb(128, 13, 13);
+          border-bottom: solid 5px white;
+          margin-right: 0;
         }
-    }
+        .details-element_right {
+          text-decoration-style: double;
+          padding: 2% 3% 0 3%;
+          border-top: solid 5px white;
+          border-right: solid 5px rgb(128, 13, 13);
+        }
+      }
+      .my-btn,
+      .my-btn:after,
+      .my-btn:before,
+      .my-btn:link {
+        font-size: 1.6rem;
+        margin: 0 auto;
+        width: 100%;
+        font-family: "Dancing Script", cursive;
+        background-color: rgb(24, 19, 19);
+        color: rgb(165, 18, 18);
+        border: solid 1px white;
+        letter-spacing: 0;
+      }
+    }  
+  }
 }

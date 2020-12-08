@@ -27,15 +27,19 @@ body {
   height: auto;
   margin: 2% auto;
   overflow: hidden;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  border-radius: 25px; }
   .container .main-information {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     color: rgba(255, 255, 255, 0.824);
     position: relative;
     padding: 2%; }
-    .container .main-information .my-btn, .container .main-information .my-btn:after, .container .main-information .my-btn:before, .container .main-information .my-btn:link {
+    .container .main-information .my-btn,
+    .container .main-information .my-btn:after,
+    .container .main-information .my-btn:before,
+    .container .main-information .my-btn:link {
       font-size: 2rem;
-      font-family: 'Dancing Script', cursive;
+      font-family: "Dancing Script", cursive;
       background-color: black;
       color: white;
       border: solid 1px white;
@@ -44,10 +48,12 @@ body {
       color: rgba(255, 0, 0, 0.701);
       background-color: #f0ecec; }
     .container .main-information .name {
-      background-color: rgba(222, 217, 217, 0.201); }
+      background-color: rgba(222, 217, 217, 0.201);
+      transition: all 1s; }
       .container .main-information .name:hover {
-        background-color: rgba(95, 10, 10, 0.605); }
+        cursor: pointer; }
     .container .main-information .details {
+      transition: all 1s;
       background-color: rgba(253, 9, 9, 0.235);
       margin: 2% auto;
       padding: 5%;
@@ -61,6 +67,19 @@ body {
         padding-right: 1%;
         margin-right: 2%;
         border-right: solid 2px white; }
+      .container .main-information .details:hover {
+        transform: scale(1.1); }
+  .container .list-social-media {
+    margin-top: 5%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    list-style: none; }
+    .container .list-social-media .link-social a {
+      color: white;
+      transition: all 0.5s; }
+      .container .list-social-media .link-social a:hover {
+        font-size: 1.2em; }
 
 @media (max-width: 420px) {
   .container {
@@ -68,8 +87,17 @@ body {
     margin: 2% auto;
     overflow: hidden;
     box-sizing: border-box; }
+    .container .list-social-media {
+      margin: 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      list-style: none; }
+      .container .list-social-media .link-social a {
+        color: white;
+        transition: all 1s; }
     .container .main-information {
-      font-family: 'Lato', sans-serif;
+      font-family: "Lato", sans-serif;
       color: rgba(255, 255, 255, 0.824);
       position: relative;
       padding: 2%;
@@ -101,11 +129,14 @@ body {
           padding: 2% 3% 0 3%;
           border-top: solid 5px white;
           border-right: solid 5px #800d0d; }
-      .container .main-information .my-btn, .container .main-information .my-btn:after, .container .main-information .my-btn:before, .container .main-information .my-btn:link {
+      .container .main-information .my-btn,
+      .container .main-information .my-btn:after,
+      .container .main-information .my-btn:before,
+      .container .main-information .my-btn:link {
         font-size: 1.6rem;
         margin: 0 auto;
         width: 100%;
-        font-family: 'Dancing Script', cursive;
+        font-family: "Dancing Script", cursive;
         background-color: #181313;
         color: #a51212;
         border: solid 1px white;
